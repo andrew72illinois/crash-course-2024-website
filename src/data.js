@@ -34,7 +34,7 @@ export const linkedinURL = "https://www.linkedin.com/";
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "Add Bio Here";
+  "Incoming UIUC Freshman for Computer Engineering. ";
 
 /* Skills
  ************************************************************** 
@@ -48,13 +48,13 @@ export const skillData = [
   },
   {
     id: 2,
-    skill: <Icon icon="simple-icons:pytorch" className="display-4" />,
-    name: "PyTorch",
+    skill: <Icon icon="simple-icons:robot-outline" className="display-4" />,
+    name: "Phoenix6 + RobotPy",
   },
   {
     id: 3, 
-    skill: <Icon icon="simple-icons:opencv" className="display-4" />,
-    name: "OpenCV",
+    skill: <Icon icon="simple-icons:photon" className="display-4" />,
+    name: "PhotonVision",
   },
 ];
 
@@ -65,7 +65,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["crash-course-2024-website"]; // currently no projects on this GitHub account 
 
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 7-8)
@@ -81,4 +81,5 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mnqeklwq";
+
